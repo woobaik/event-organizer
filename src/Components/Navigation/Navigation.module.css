@@ -1,0 +1,30 @@
+.Navigation {
+  height: 69px;
+  padding: 16px 16px 8px 16px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 44px;
+  width: 123px;
+}
+
+.menu {
+  display: flex;
+}
+
+.userAuthenticate {
+  display: flex;
+}
+
+.link {
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.Startgroup {
+  color: rgb(246, 64, 96);
+}
