@@ -1,0 +1,32 @@
+.First {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 6rem;
+  width: 80%;
+  height: 60vh;
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.firstImg {
+  width: 520px;
+  margin: auto;
+}
+.textArea {
+  color: black;
+  margin: auto;
+  max-width: 520px;
+}
+
+@media (max-width: 640px) {
+  .First {
+    flex-wrap: wrap;
+  }
+  .firstImg {
+    margin-top: 3rem;
+  }
+}

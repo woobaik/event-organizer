@@ -1,0 +1,33 @@
+.Second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 60%;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.12);
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.secondImg {
+  width: 340px;
+  margin: auto;
+}
+.textArea {
+  color: black;
+  margin: auto;
+  margin-left: 3rem;
+  max-width: 520px;
+}
+
+@media (max-width: 640px) {
+  .Second {
+    flex-wrap: wrap;
+  }
+  .secondImg {
+    margin-top: 10rem;
+  }
+}

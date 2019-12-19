@@ -23,8 +23,11 @@
 .link {
   margin-right: 1.5rem;
   cursor: pointer;
+  font-weight: light;
 }
 
 .Startgroup {
   color: rgb(246, 64, 96);
+  font-weight: bold;
+  letter-spacing: 1px;
 }
