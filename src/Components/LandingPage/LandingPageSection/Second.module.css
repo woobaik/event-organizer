@@ -11,6 +11,7 @@
 .header {
   font-size: 3rem;
   font-weight: bold;
+  margin-top: 0;
 }
 .secondImg {
   width: 340px;
@@ -23,11 +24,25 @@
   max-width: 520px;
 }
 
+.textArea :nth-child(1) {
+  color: #947f5f;
+  margin: 0;
+}
+
 @media (max-width: 640px) {
   .Second {
     flex-wrap: wrap;
   }
+  .Second :nth-child(1) {
+    order: 2;
+  }
+  .Second :nth-child(2) {
+    order: 1;
+  }
+  .textArea {
+    margin-top: 15rem;
+  }
   .secondImg {
-    margin-top: 10rem;
+    margin-top: 3rem;
   }
 }

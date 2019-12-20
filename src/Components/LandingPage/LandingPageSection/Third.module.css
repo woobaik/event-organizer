@@ -1,0 +1,39 @@
+.Third {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.12);
+}
+
+.thirdText :nth-child(1) {
+  color: #947f5f;
+  padding-bottom: 5px;
+}
+.thirdText :nth-child(2) {
+  color: black;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.thirdText :nth-child(3) {
+  line-height: 1rem;
+}
+
+@media (max-width: 680px) {
+  .Third {
+    flex: wrap;
+    flex-direction: column;
+  }
+
+  .thirdText {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .thirdImg {
+    margin-top: 2rem;
+  }
+}
