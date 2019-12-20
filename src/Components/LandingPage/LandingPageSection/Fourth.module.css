@@ -1,0 +1,30 @@
+.Fourth {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.12);
+}
+
+.fourthImg {
+  width: 320px;
+}
+
+.fourthText {
+  margin-left: 3rem;
+}
+
+.fourthText :nth-child(1) {
+  color: #947f5f;
+}
+
+.fourthText :nth-child(2) {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.fourthText :nth-child(3) {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}

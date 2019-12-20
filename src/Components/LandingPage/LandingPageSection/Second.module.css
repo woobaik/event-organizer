@@ -29,6 +29,10 @@
   margin: 0;
 }
 
+.textArea :nth-child(3) {
+  font-size: 1.3rem;
+}
+
 @media (max-width: 640px) {
   .Second {
     flex-wrap: wrap;

@@ -21,6 +21,8 @@
 
 .thirdText :nth-child(3) {
   line-height: 1rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 
 @media (max-width: 680px) {
