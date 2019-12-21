@@ -1,6 +1,6 @@
 import React from "react"
 import classes from "./Fourth.module.css"
-import fourthImg from "../../../assets/images/fourth.en.png"
+import fourthImg from "../../../../assets/images/fourth.en.png"
 
 const Fourth = () => {
   return (

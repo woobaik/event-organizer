@@ -1,5 +1,5 @@
 import React from "react"
-import SecondImg from "../../../assets/images/second.en.png"
+import SecondImg from "../../../../assets/images/second.en.png"
 import classes from "./Second.module.css"
 
 const Second = () => {
